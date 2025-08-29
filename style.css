@@ -30,12 +30,19 @@
 main {
   display: flex;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   background-color: var(--color-slate-300);
+}
+
+/* Dynamic viewport height on supported browsers */
+@supports (height: 100dvh) {
+  main {
+    min-height: 100dvh;
+  }
 }
 
 .card {
