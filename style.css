@@ -74,5 +74,5 @@ main {
   color: var(--color-slate-500);
   text-align: center;
   font: var(--text-preset-2);
-  letter-spacing: 0.2px;
+  letter-spacing: 0.0125em;
 }
