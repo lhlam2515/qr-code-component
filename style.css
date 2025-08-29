@@ -40,7 +40,8 @@ main {
 
 .card {
   display: flex;
-  width: min-content;
+  width: 100%;
+  max-width: 320px;
   padding: var(--spacing-200);
   padding-bottom: var(--spacing-500);
   flex-direction: column;
